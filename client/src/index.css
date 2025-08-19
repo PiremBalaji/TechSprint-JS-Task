@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* App shell sizing */
+html, body, #root {
+  height: 100%;
+}
+
+@layer utilities {
+  .text-gradient {
+    background-image: linear-gradient(to right, #4f46e5, #7c3aed, #db2777);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in { animation: fade-in 0.6s ease both; }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  .animate-shimmer {
+    background: linear-gradient(90deg, rgba(0,0,0,0.06) 25%, rgba(0,0,0,0.12) 37%, rgba(0,0,0,0.06) 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  .card-glass {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+  }
+}
+
