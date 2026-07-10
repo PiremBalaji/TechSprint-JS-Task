@@ -21,7 +21,7 @@ export default function EventsSection() {
 				setEvents([
 					{
 						name: 'TechSprint 2025',
-						description: 'A 24-hour hackathon focusing on AI and web development.',
+						description: 'A 24-hour Hackathon focusing on AI and Web Development.',
 						date: '2025-09-15',
 					},
 					{
@@ -30,9 +30,9 @@ export default function EventsSection() {
 						date: '2025-10-01',
 					},
 					{
-						name: 'Cloud Camp',
-						description: 'Hands-on workshop on serverless and cloud-native patterns.',
-						date: '2025-11-12',
+						name: 'Next Gen AI Workshop',
+						description: 'Hands-on workshop on Gen AI.',
+						date: '2025-12-12',
 					},
 				])
 			} finally {
