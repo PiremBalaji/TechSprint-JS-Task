@@ -20,19 +20,19 @@ export default function EventsSection() {
 				setError('Could not load events. Showing sample data.')
 				setEvents([
 					{
-						name: 'TechSprint 2025',
-						description: 'A 24-hour hackathon focusing on AI and web development.',
-						date: '2025-09-15',
+						name: 'TechSprint 2026',
+						description: 'A Hackathon to build innovative solutions with the latest web technologies.',
+						date: '2026-09-15',
 					},
 					{
 						name: 'Frontend Fiesta',
 						description: 'A mini conf to explore modern UI frameworks and design systems.',
-						date: '2025-10-01',
+						date: '2026-10-01',
 					},
 					{
 						name: 'Cloud Camp',
 						description: 'Hands-on workshop on serverless and cloud-native patterns.',
-						date: '2025-11-12',
+						date: '2026-11-12',
 					},
 				])
 			} finally {
