@@ -21,18 +21,18 @@ export default function EventsSection() {
 				setEvents([
 					{
 						name: 'TechSprint 2026',
-						description: 'A 48-hour Hackathon focusing on Game development.',
+						description: 'A Hackathon to build innovative solutions with the latest web technologies.',
 						date: '2026-09-15',
 					},
 					{
 						name: 'Frontend Fiesta',
 						description: 'A mini conf to explore modern UI frameworks and design systems.',
-						date: '2025-10-01',
+						date: '2026-10-01',
 					},
 					{
-						name: 'Next Gen AI Workshop',
-						description: 'Hands-on workshop on Gen AI.',
-						date: '2025-12-12',
+						name: 'Cloud Camp',
+						description: 'Hands-on workshop on serverless and cloud-native patterns.',
+						date: '2026-11-12',
 					},
 				])
 			} finally {
