@@ -30,9 +30,9 @@ export default function EventsSection() {
 						date: '2025-10-01',
 					},
 					{
-						name: 'Next Gen AI Workshop',
-						description: 'Hands-on workshop on Gen AI.',
-						date: '2025-12-12',
+						name: 'Data Science Summit',
+						description: 'A conference to discuss the latest trends in data science and analytics.',
+						date: '2025-11-20',
 					},
 				])
 			} finally {
